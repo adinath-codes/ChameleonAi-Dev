@@ -1,0 +1,16 @@
+{
+  "adblend_pipeline_step": 4,
+  "output": "music/adblend_analysis/converted_vocal.wav",
+  "model": "music/adblend_analysis/models/harry_styles/HarryStylesHH.pth",
+  "index": "music/adblend_analysis/models/harry_styles/added_IVF1374_Flat_nprobe_1_HarryStylesHH_v2.index",
+  "settings": {
+    "pitch_shift": 2,
+    "f0_method": "rmvpe",
+    "index_rate": 0.33,
+    "filter_radius": 5,
+    "resample_sr": 44100,
+    "rms_mix_rate": 1,
+    "protect": 0.45
+  },
+  "next_step": "Run adblend_s5.py \u2014 mix converted_vocal.wav + no_vocals.wav \u2192 final ad"
+}

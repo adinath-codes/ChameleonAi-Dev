@@ -1,0 +1,543 @@
+{
+  "adblend_pipeline_step": 2,
+  "files_analyzed": {
+    "vocal_wav_duration_sec": 64.1,
+    "non_vocal_wav_duration_sec": 64.1
+  },
+  "voice_profile": {
+    "mean_pitch_hz": 294.10440059263385,
+    "mean_note": "D4",
+    "voiced_phrases": 57,
+    "embedding_saved": false
+  },
+  "musical_context": {
+    "tempo_bpm": 86.1328125,
+    "key": "F# minor",
+    "total_beats": 77,
+    "loudness_lufs": null,
+    "spectral_centroid_hz": 1417.8
+  },
+  "syllable_budget": [
+    {
+      "phrase_index": 0,
+      "start_sec": 0.0,
+      "end_sec": 0.9984580498866213,
+      "duration_sec": 0.998,
+      "beats_in_phrase": 1.43,
+      "syllable_range": "2\u20134",
+      "syllable_target": 4
+    },
+    {
+      "phrase_index": 1,
+      "start_sec": 1.6486167800453515,
+      "end_sec": 3.0882539682539685,
+      "duration_sec": 1.44,
+      "beats_in_phrase": 2.07,
+      "syllable_range": "4\u20136",
+      "syllable_target": 5
+    },
+    {
+      "phrase_index": 2,
+      "start_sec": 7.7090249433106575,
+      "end_sec": 8.962902494331066,
+      "duration_sec": 1.254,
+      "beats_in_phrase": 1.8,
+      "syllable_range": "3\u20135",
+      "syllable_target": 5
+    },
+    {
+      "phrase_index": 3,
+      "start_sec": 9.195102040816327,
+      "end_sec": 11.656417233560092,
+      "duration_sec": 2.461,
+      "beats_in_phrase": 3.53,
+      "syllable_range": "7\u201310",
+      "syllable_target": 9
+    },
+    {
+      "phrase_index": 4,
+      "start_sec": 11.72607709750567,
+      "end_sec": 14.233832199546486,
+      "duration_sec": 2.508,
+      "beats_in_phrase": 3.6,
+      "syllable_range": "7\u201310",
+      "syllable_target": 9
+    },
+    {
+      "phrase_index": 5,
+      "start_sec": 14.303492063492063,
+      "end_sec": 14.721451247165533,
+      "duration_sec": 0.418,
+      "beats_in_phrase": 0.6,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 6,
+      "start_sec": 14.767891156462586,
+      "end_sec": 15.81278911564626,
+      "duration_sec": 1.045,
+      "beats_in_phrase": 1.5,
+      "syllable_range": "3\u20134",
+      "syllable_target": 4
+    },
+    {
+      "phrase_index": 7,
+      "start_sec": 15.836009070294784,
+      "end_sec": 17.205986394557822,
+      "duration_sec": 1.37,
+      "beats_in_phrase": 1.97,
+      "syllable_range": "3\u20135",
+      "syllable_target": 5
+    },
+    {
+      "phrase_index": 8,
+      "start_sec": 17.22920634920635,
+      "end_sec": 20.410340136054423,
+      "duration_sec": 3.181,
+      "beats_in_phrase": 4.57,
+      "syllable_range": "9\u201313",
+      "syllable_target": 11
+    },
+    {
+      "phrase_index": 9,
+      "start_sec": 20.456780045351476,
+      "end_sec": 21.385578231292516,
+      "duration_sec": 0.929,
+      "beats_in_phrase": 1.33,
+      "syllable_range": "2\u20133",
+      "syllable_target": 3
+    },
+    {
+      "phrase_index": 10,
+      "start_sec": 21.408798185941045,
+      "end_sec": 21.89641723356009,
+      "duration_sec": 0.488,
+      "beats_in_phrase": 0.7,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 11,
+      "start_sec": 22.035736961451246,
+      "end_sec": 22.267936507936508,
+      "duration_sec": 0.232,
+      "beats_in_phrase": 0.33,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 12,
+      "start_sec": 22.31437641723356,
+      "end_sec": 22.54657596371882,
+      "duration_sec": 0.232,
+      "beats_in_phrase": 0.33,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 13,
+      "start_sec": 22.6162358276644,
+      "end_sec": 23.684353741496597,
+      "duration_sec": 1.068,
+      "beats_in_phrase": 1.53,
+      "syllable_range": "3\u20134",
+      "syllable_target": 4
+    },
+    {
+      "phrase_index": 14,
+      "start_sec": 23.754013605442175,
+      "end_sec": 24.86857142857143,
+      "duration_sec": 1.115,
+      "beats_in_phrase": 1.6,
+      "syllable_range": "3\u20134",
+      "syllable_target": 4
+    },
+    {
+      "phrase_index": 15,
+      "start_sec": 24.91501133786848,
+      "end_sec": 25.356190476190477,
+      "duration_sec": 0.441,
+      "beats_in_phrase": 0.63,
+      "syllable_range": "1\u20131",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 16,
+      "start_sec": 25.518730158730158,
+      "end_sec": 25.704489795918366,
+      "duration_sec": 0.186,
+      "beats_in_phrase": 0.27,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 17,
+      "start_sec": 25.75092970521542,
+      "end_sec": 27.237006802721087,
+      "duration_sec": 1.486,
+      "beats_in_phrase": 2.13,
+      "syllable_range": "4\u20136",
+      "syllable_target": 5
+    },
+    {
+      "phrase_index": 18,
+      "start_sec": 28.305124716553287,
+      "end_sec": 29.58222222222222,
+      "duration_sec": 1.277,
+      "beats_in_phrase": 1.83,
+      "syllable_range": "3\u20135",
+      "syllable_target": 5
+    },
+    {
+      "phrase_index": 19,
+      "start_sec": 29.675102040816327,
+      "end_sec": 32.391836734693875,
+      "duration_sec": 2.717,
+      "beats_in_phrase": 3.9,
+      "syllable_range": "7\u201311",
+      "syllable_target": 10
+    },
+    {
+      "phrase_index": 20,
+      "start_sec": 32.43827664399093,
+      "end_sec": 32.995555555555555,
+      "duration_sec": 0.557,
+      "beats_in_phrase": 0.8,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 21,
+      "start_sec": 33.18131519274377,
+      "end_sec": 33.97079365079365,
+      "duration_sec": 0.789,
+      "beats_in_phrase": 1.13,
+      "syllable_range": "2\u20133",
+      "syllable_target": 3
+    },
+    {
+      "phrase_index": 22,
+      "start_sec": 34.11011337868481,
+      "end_sec": 35.36399092970522,
+      "duration_sec": 1.254,
+      "beats_in_phrase": 1.8,
+      "syllable_range": "3\u20135",
+      "syllable_target": 5
+    },
+    {
+      "phrase_index": 23,
+      "start_sec": 35.41043083900227,
+      "end_sec": 35.828390022675734,
+      "duration_sec": 0.418,
+      "beats_in_phrase": 0.6,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 24,
+      "start_sec": 35.87482993197279,
+      "end_sec": 36.26956916099773,
+      "duration_sec": 0.395,
+      "beats_in_phrase": 0.57,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 25,
+      "start_sec": 36.45532879818594,
+      "end_sec": 36.75718820861678,
+      "duration_sec": 0.302,
+      "beats_in_phrase": 0.43,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 26,
+      "start_sec": 36.89650793650794,
+      "end_sec": 37.755646258503404,
+      "duration_sec": 0.859,
+      "beats_in_phrase": 1.23,
+      "syllable_range": "2\u20133",
+      "syllable_target": 3
+    },
+    {
+      "phrase_index": 27,
+      "start_sec": 37.82530612244898,
+      "end_sec": 38.22004535147392,
+      "duration_sec": 0.395,
+      "beats_in_phrase": 0.57,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 28,
+      "start_sec": 38.38258503401361,
+      "end_sec": 39.10240362811791,
+      "duration_sec": 0.72,
+      "beats_in_phrase": 1.03,
+      "syllable_range": "2\u20133",
+      "syllable_target": 3
+    },
+    {
+      "phrase_index": 29,
+      "start_sec": 39.54358276643991,
+      "end_sec": 40.518820861678,
+      "duration_sec": 0.975,
+      "beats_in_phrase": 1.4,
+      "syllable_range": "2\u20134",
+      "syllable_target": 3
+    },
+    {
+      "phrase_index": 30,
+      "start_sec": 40.68136054421769,
+      "end_sec": 41.21541950113379,
+      "duration_sec": 0.534,
+      "beats_in_phrase": 0.77,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 31,
+      "start_sec": 41.35473922902494,
+      "end_sec": 42.37641723356009,
+      "duration_sec": 1.022,
+      "beats_in_phrase": 1.47,
+      "syllable_range": "2\u20134",
+      "syllable_target": 4
+    },
+    {
+      "phrase_index": 32,
+      "start_sec": 42.44607709750567,
+      "end_sec": 43.90893424036281,
+      "duration_sec": 1.463,
+      "beats_in_phrase": 2.1,
+      "syllable_range": "4\u20136",
+      "syllable_target": 5
+    },
+    {
+      "phrase_index": 33,
+      "start_sec": 43.95537414965986,
+      "end_sec": 44.09469387755102,
+      "duration_sec": 0.139,
+      "beats_in_phrase": 0.2,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 34,
+      "start_sec": 44.210793650793654,
+      "end_sec": 45.04671201814059,
+      "duration_sec": 0.836,
+      "beats_in_phrase": 1.2,
+      "syllable_range": "2\u20133",
+      "syllable_target": 3
+    },
+    {
+      "phrase_index": 35,
+      "start_sec": 45.139591836734695,
+      "end_sec": 46.11482993197279,
+      "duration_sec": 0.975,
+      "beats_in_phrase": 1.4,
+      "syllable_range": "2\u20134",
+      "syllable_target": 4
+    },
+    {
+      "phrase_index": 36,
+      "start_sec": 46.16126984126984,
+      "end_sec": 46.625668934240366,
+      "duration_sec": 0.464,
+      "beats_in_phrase": 0.67,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 37,
+      "start_sec": 46.85786848072562,
+      "end_sec": 47.322267573696145,
+      "duration_sec": 0.464,
+      "beats_in_phrase": 0.67,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 38,
+      "start_sec": 47.4615873015873,
+      "end_sec": 47.9027664399093,
+      "duration_sec": 0.441,
+      "beats_in_phrase": 0.63,
+      "syllable_range": "1\u20131",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 39,
+      "start_sec": 47.94920634920635,
+      "end_sec": 48.92444444444445,
+      "duration_sec": 0.975,
+      "beats_in_phrase": 1.4,
+      "syllable_range": "2\u20134",
+      "syllable_target": 4
+    },
+    {
+      "phrase_index": 40,
+      "start_sec": 49.66748299319728,
+      "end_sec": 50.062222222222225,
+      "duration_sec": 0.395,
+      "beats_in_phrase": 0.57,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 41,
+      "start_sec": 50.1318820861678,
+      "end_sec": 50.50340136054422,
+      "duration_sec": 0.372,
+      "beats_in_phrase": 0.53,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 42,
+      "start_sec": 50.54984126984127,
+      "end_sec": 51.57151927437642,
+      "duration_sec": 1.022,
+      "beats_in_phrase": 1.47,
+      "syllable_range": "2\u20134",
+      "syllable_target": 4
+    },
+    {
+      "phrase_index": 43,
+      "start_sec": 51.66439909297052,
+      "end_sec": 52.2681179138322,
+      "duration_sec": 0.604,
+      "beats_in_phrase": 0.87,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 44,
+      "start_sec": 52.453877551020405,
+      "end_sec": 52.91827664399093,
+      "duration_sec": 0.464,
+      "beats_in_phrase": 0.67,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 45,
+      "start_sec": 52.964716553287985,
+      "end_sec": 53.22013605442177,
+      "duration_sec": 0.255,
+      "beats_in_phrase": 0.37,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 46,
+      "start_sec": 53.336235827664396,
+      "end_sec": 53.45233560090703,
+      "duration_sec": 0.116,
+      "beats_in_phrase": 0.17,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 47,
+      "start_sec": 53.54521541950113,
+      "end_sec": 54.89197278911565,
+      "duration_sec": 1.347,
+      "beats_in_phrase": 1.93,
+      "syllable_range": "3\u20135",
+      "syllable_target": 5
+    },
+    {
+      "phrase_index": 48,
+      "start_sec": 54.9384126984127,
+      "end_sec": 55.40281179138322,
+      "duration_sec": 0.464,
+      "beats_in_phrase": 0.67,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 49,
+      "start_sec": 55.68145124716553,
+      "end_sec": 56.006530612244894,
+      "duration_sec": 0.325,
+      "beats_in_phrase": 0.47,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 50,
+      "start_sec": 56.099410430839,
+      "end_sec": 58.07310657596372,
+      "duration_sec": 1.974,
+      "beats_in_phrase": 2.83,
+      "syllable_range": "5\u20138",
+      "syllable_target": 7
+    },
+    {
+      "phrase_index": 51,
+      "start_sec": 58.53750566893424,
+      "end_sec": 61.161360544217686,
+      "duration_sec": 2.624,
+      "beats_in_phrase": 3.77,
+      "syllable_range": "7\u201311",
+      "syllable_target": 9
+    },
+    {
+      "phrase_index": 52,
+      "start_sec": 61.207800453514736,
+      "end_sec": 61.62575963718821,
+      "duration_sec": 0.418,
+      "beats_in_phrase": 0.6,
+      "syllable_range": "1\u20131",
+      "syllable_target": 2
+    },
+    {
+      "phrase_index": 53,
+      "start_sec": 61.695419501133784,
+      "end_sec": 62.6009977324263,
+      "duration_sec": 0.906,
+      "beats_in_phrase": 1.3,
+      "syllable_range": "2\u20133",
+      "syllable_target": 3
+    },
+    {
+      "phrase_index": 54,
+      "start_sec": 62.74031746031746,
+      "end_sec": 62.97251700680272,
+      "duration_sec": 0.232,
+      "beats_in_phrase": 0.33,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 55,
+      "start_sec": 63.065396825396824,
+      "end_sec": 63.32081632653061,
+      "duration_sec": 0.255,
+      "beats_in_phrase": 0.37,
+      "syllable_range": "1\u20131",
+      "syllable_target": 1
+    },
+    {
+      "phrase_index": 56,
+      "start_sec": 63.506575963718824,
+      "end_sec": 64.08707482993198,
+      "duration_sec": 0.58,
+      "beats_in_phrase": 0.83,
+      "syllable_range": "1\u20132",
+      "syllable_target": 2
+    }
+  ],
+  "mistral_prompt": "You are a music copywriter writing ad lyrics that will be sung in a F# minor song at 86 BPM.\n\nBRAND: NovaBrew\nPRODUCT: Cold Brew Coffee\nTONE: energetic and warm\n\nSYLLABLE CONSTRAINTS (you must match these exactly):\n  Line 1: exactly 4 syllables  (acceptable range: 2\u20134)\n  Line 2: exactly 5 syllables  (acceptable range: 4\u20136)\n  Line 3: exactly 5 syllables  (acceptable range: 3\u20135)\n  Line 4: exactly 9 syllables  (acceptable range: 7\u201310)\n\nRULES:\n- Output ONLY the lyrics, one line per phrase\n- No titles, no explanations, no punctuation except commas\n- Each line must flow naturally when sung\n- Weave the brand or product name into at least one line\n- Match the energy of a 86 BPM minor key song\n\nOUTPUT FORMAT:\nLine 1: <lyric>\nLine 2: <lyric>\n...\n",
+  "next_steps": [
+    "1. Send mistral_prompt to Mistral API to get ad lyrics",
+    "2. Run TTS on the lyrics (Coqui or ElevenLabs) \u2192 tts_output.wav",
+    "3. Train RVC on vocal.wav, then convert tts_output.wav",
+    "4. Use f0_contour.npy as pitch guide inside RVC",
+    "5. Mix converted_vocal.wav + non_vocal.wav with ffmpeg"
+  ]
+}

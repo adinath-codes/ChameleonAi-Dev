@@ -1,0 +1,28 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.10.*"
+dependencies = [
+    "demucs>=4.0.1",
+    "elevenlabs>=2.37.0",
+    "mistral>=21.0.0",
+    "mistralai>=1.12.4",
+    "pydub>=0.25.1",
+    "pyloudnorm>=0.2.0",
+    "python-dotenv>=1.2.1",
+    "pyworld>=0.3.5",
+    "replicate>=1.0.7",
+    "requests>=2.32.5",
+    "resemblyzer>=0.1.4",
+    "rvc-python>=0.1.5",
+    "soundfile>=0.13.1",
+    "torch>=2.10.0",
+    "torchaudio>=2.10.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "music/separated/htdemucs/test",
+]

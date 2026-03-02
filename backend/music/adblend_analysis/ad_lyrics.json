@@ -1,0 +1,99 @@
+{
+  "adblend_pipeline_step": 3,
+  "brand": "Coca-Cola",
+  "product": "Diet Coke",
+  "tone": "energetic, warm, feel-good",
+  "song_key": "F# minor",
+  "song_tempo": 86.1328125,
+  "lyrics": [
+    {
+      "line_index": 0,
+      "lyric": "You know it\u2019s true",
+      "syllables_actual": 4,
+      "syllables_target": 4,
+      "syllables_range": "2\u20134",
+      "syllable_ok": true,
+      "phrase_start_sec": 0.0,
+      "phrase_end_sec": 0.9984580498866213
+    },
+    {
+      "line_index": 1,
+      "lyric": "Zero sugar move",
+      "syllables_actual": 5,
+      "syllables_target": 5,
+      "syllables_range": "4\u20136",
+      "syllable_ok": true,
+      "phrase_start_sec": 1.6486167800453515,
+      "phrase_end_sec": 3.0882539682539685
+    },
+    {
+      "line_index": 2,
+      "lyric": "Crisp in the light",
+      "syllables_actual": 4,
+      "syllables_target": 5,
+      "syllables_range": "3\u20135",
+      "syllable_ok": true,
+      "phrase_start_sec": 7.7090249433106575,
+      "phrase_end_sec": 8.962902494331066
+    },
+    {
+      "line_index": 3,
+      "lyric": "Taste like a dream but it won\u2019t slow you down",
+      "syllables_actual": 10,
+      "syllables_target": 9,
+      "syllables_range": "7\u201310",
+      "syllable_ok": true,
+      "phrase_start_sec": 9.195102040816327,
+      "phrase_end_sec": 11.656417233560092
+    },
+    {
+      "line_index": 4,
+      "lyric": "Bold in your hand when the night\u2019s burning bright",
+      "syllables_actual": 10,
+      "syllables_target": 9,
+      "syllables_range": "7\u201310",
+      "syllable_ok": true,
+      "phrase_start_sec": 11.72607709750567,
+      "phrase_end_sec": 14.233832199546486
+    },
+    {
+      "line_index": 5,
+      "lyric": "Yeah",
+      "syllables_actual": 1,
+      "syllables_target": 1,
+      "syllables_range": "1\u20131",
+      "syllable_ok": true,
+      "phrase_start_sec": 14.303492063492063,
+      "phrase_end_sec": 14.721451247165533
+    },
+    {
+      "line_index": 6,
+      "lyric": "Sip it right",
+      "syllables_actual": 3,
+      "syllables_target": 4,
+      "syllables_range": "3\u20134",
+      "syllable_ok": true,
+      "phrase_start_sec": 14.767891156462586,
+      "phrase_end_sec": 15.81278911564626
+    },
+    {
+      "line_index": 7,
+      "lyric": "Full attitude",
+      "syllables_actual": 4,
+      "syllables_target": 5,
+      "syllables_range": "3\u20135",
+      "syllable_ok": true,
+      "phrase_start_sec": 15.836009070294784,
+      "phrase_end_sec": 17.205986394557822
+    }
+  ],
+  "full_script": "You know it\u2019s true / Zero sugar move / Crisp in the light / Taste like a dream but it won\u2019t slow you down / Bold in your hand when the night\u2019s burning bright / Yeah / Sip it right / Full attitude",
+  "tts_output": "adblend_analysis/tts_output.wav",
+  "next_steps": [
+    "1. Train RVC on vocals.wav  \u2192  produces an RVC model checkpoint",
+    "2. Run RVC inference on tts_output.wav using the trained checkpoint",
+    "3. Pass f0_contour.npy as the pitch curve inside RVC",
+    "4. RVC outputs converted_vocal.wav  (ad lyrics in artist's voice)",
+    "5. Mix converted_vocal.wav + no_vocals.wav with ffmpeg"
+  ]
+}

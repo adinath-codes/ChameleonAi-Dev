@@ -1,0 +1,22 @@
+{
+  "adblend_pipeline_step": 6,
+  "original_song": "audios/original.mp3",
+  "insertion_point_sec": 27.5,
+  "ad_duration_sec": 18.64,
+  "output_duration_sec": 82.44,
+  "output_file": "/home/radir/Documents/ADINATH light/Programming Heavy/ChameleonAi/public/music/final_with_ad.mp3",
+  "settings": {
+    "search_from_pct": 0.4,
+    "search_to_pct": 0.8,
+    "min_gap_sec": 1.0,
+    "vocal_gain_db": 0.0,
+    "song_duck_db": -4.0
+  },
+  "tuning_guide": {
+    "ad too quiet": "raise VOCAL_GAIN_DB to +3, re-run",
+    "ad too loud": "lower VOCAL_GAIN_DB to -2, re-run",
+    "bad insertion point": "change SEARCH_FROM_PCT / SEARCH_TO_PCT, re-run",
+    "abrupt transition": "raise FADE_OUT_MS / FADE_IN_MS, re-run",
+    "muddy vocal": "raise HPF_HZ to 180, re-run"
+  }
+}

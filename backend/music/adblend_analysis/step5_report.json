@@ -1,0 +1,30 @@
+{
+  "adblend_pipeline_step": 5,
+  "outputs": {
+    "final_ad": "music/adblend_analysis/final_ad.wav",
+    "full_song": "music/adblend_analysis/full_song_with_ad.wav"
+  },
+  "settings": {
+    "ad_insert_sec": 10.0,
+    "vocal_gain_db": 3.0,
+    "instrumental_gain_db": -1.0,
+    "fade_in_ms": 500,
+    "fade_out_ms": 500,
+    "vocal_hpf_hz": 120,
+    "vocal_lpf_hz": 12000
+  },
+  "tuning_guide": {
+    "vocal too quiet": "raise VOCAL_GAIN_DB to +3",
+    "vocal too loud": "lower VOCAL_GAIN_DB to -2",
+    "muddy sound": "raise VOCAL_HPF_HZ to 180",
+    "harsh/tinny": "lower VOCAL_LPF_HZ to 8000",
+    "move ad earlier": "lower AD_INSERT_SEC",
+    "move ad later": "raise AD_INSERT_SEC",
+    "abrupt transitions": "raise FADE_IN_MS and FADE_OUT_MS"
+  },
+  "pipeline_complete": true,
+  "files_produced": [
+    "music/adblend_analysis/final_ad.wav",
+    "music/adblend_analysis/full_song_with_ad.wav"
+  ]
+}
