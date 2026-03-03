@@ -1,117 +1,140 @@
-# 🦎 Chameleon AI 🎧✨
+# 🦎 Chameleon AI (🏆 HACKATHON PROJECT)
 
-> **The Future of Native Audio Advertising. Seamless. Hyper-Personalized. Unskippable.** 🚀🔥
+**The Future of Native Audio Advertising. Seamless. Hyper-Personalized. Unskippable.**
 
----
+Chameleon AI is a Just-In-Time (JIT) audio engine that completely reinvents the ad break. It uses RVC voice cloning, LLM contextual scripting, and automated studio mastering to generate native ads in real-time that perfectly match the tempo, musical key, and emotional vibe of whatever the user is currently listening to. Say goodbye to jarring radio commercials and high skip rates.
 
-## 🤔 Why We Built It (The Problem) 🛑📉
+## 🌄 Demo
 
-Let's face it: **Audio advertising is fundamentally broken.** 💔
-You are deep into your favorite Spotify playlist, the vibe is absolutely perfect 🎶✨, and suddenly—**BAM!** 💥 A loud, jarring, completely out-of-context car commercial ruins the moment. 🚗🔊
-
-Listeners hate it 😠, skip rates are through the roof ⏭️, and advertisers are wasting millions of dollars 💸🗑️.
-
-### 💡 The Solution: Make the ad *become* the vibe. 🦎🎵
-
-**Chameleon AI** is a Just-In-Time (JIT) ⏱️ audio engine that reinvents the ad break. We use RVC voice cloning 🗣️, LLM contextual scripting 🧠, and automated studio mastering 🎛️ to generate native ads in **real-time** that perfectly match the tempo 🥁, musical key 🎹, and emotional vibe 🌊 of whatever the user is currently listening to.
+*(Add your demo images/GIFs below by dragging and dropping them into GitHub)*
 
 ---
 
-## 🌟 Key Advantages & Features 🚀🏆
+## 🚀 Key Features
 
-* **🎯 Hyper-Contextual "Vibe Matching":** Listenting to a 130 BPM workout track? 🏋️‍♂️ The ad is hype and fast. Lo-fi study beats? 📚 The ad is whispered and chill. Skip rates drop to near zero! 📉
-* **🌍 Dynamic Creative Optimization (DCO):** Ads are generated *milliseconds* before playing. We inject real-time data! 🌧️ *"Raining in Chennai right now? Order a hot coffee..."* ☕📍
-* **🎙️ Synthetic Host-Read Ads:** Podcast listeners love host-read ads! We clone the host's voice so advertisers can buy dynamic slots without the podcaster going into a studio. 🎧🎤
-* **🖼️ Multi-Modal Ad Delivery:** When the AI audio plays, the frontend UI dynamically swaps the album artwork to an AI-generated visual of the artist using the product! 📸🥤
-* **💰 The Creator Economy Marketplace:** It's not piracy; it's a licensing platform! Artists opt-in their voice models and earn a 20% royalty 🤑 every time an advertiser generates a Chameleon Ad. Passive income while they sleep! 🛌💸
+* **🎯 Hyper-Contextual "Vibe Matching":** Analyzes the currently playing song using Demucs and automatically generates an ad that perfectly matches the track's BPM, musical key, and mood.
+* **🌍 Dynamic Creative Optimization (DCO):** Injects real-time environmental data (listener's city, weather, and time of day) directly into the generated lyrics for hyper-personalized messaging.
+* **🎙️ Synthetic Host-Read Ads:** Utilizes Retrieval-based Voice Conversion (RVC) to clone the artist's or podcast host's voice, making the ad sound like a natural continuation of the audio stream.
+* **🖼️ Multi-Modal Ad Delivery:** Synchronizes the frontend UI to dynamically swap the song's album artwork with an AI-generated visual of the artist using the advertised product during the ad break.
+* **💰 Creator Economy Marketplace:** Artists can officially license their voice models to the Chameleon platform, earning passive royalty cuts every time an advertiser generates an ad using their voice.
 
 ---
 
-## 📂 File Structure 🏗️📁
+## 🛠️ Tech Stack
+
+### Frontend
+
+* **ReactJS** + **Vite**: High-performance UI rendering for the Spotify clone.
+* **CSS/Inline Styles**: For accurate, responsive Spotify desktop mimicking and animations.
+* **HTML5 Audio API**: For seamless, millisecond-accurate track crossfading and hot-swapping.
+
+### Backend & ML Infrastructure
+
+* **FastAPI**: Asynchronous API gateway for orchestrating heavy background ML jobs.
+* **Demucs**: Deep learning source separation to extract instrumentals and vocals.
+* **Librosa**: Audio analysis for beat tracking (BPM) and pitch/key extraction.
+* **Mistral AI (LLM)**: Generates rhythmically accurate, syllable-matched ad lyrics based on real-time data.
+* **ElevenLabs**: High-fidelity Text-to-Speech (TTS) generation.
+* **RVC (Retrieval-based Voice Conversion)**: Clones specific artist vocal timbres over the TTS output.
+* **Pedalboard**: Studio-grade audio mastering (High-pass filters, limiters, reverb, and delay) to blend the AI vocals into the mix.
+
+---
+
+## 💻 Local Installation Guide
+
+Follow these steps to run Chameleon AI locally on your machine.
+
+### Prerequisites
+
+* **OS:** Linux or Windows (via WSL2 - Recommended).
+* **Python:** Version 3.10 or higher.
+* **Node.js:** Version 18+.
+* **GPU:** NVIDIA GPU with CUDA support (Recommended for Demucs and RVC processing).
+* **API Keys:** Mistral AI and ElevenLabs.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/chameleon-ai.git
+cd chameleon-ai
+
+```
+
+## 📂 Project Structure
+
+Here is an overview of the repository's architecture:
 
 ```text
-ChameleonAI/
-│
-├── 🎨 frontend/                  # React + Vite Spotify Clone
+chameleon-ai/
+├── frontend/                  # 🎨 Frontend Source Code (Spotify Clone)
 │   ├── public/
-│   │   ├── images/               # 🖼️ Album art & AI Ad generated images
-│   │   └── music/                # 🎵 Local .mp3 files for seamless hot-swapping
+│   │   ├── images/            # Static assets, album art, and AI Ad visuals
+│   │   └── music/             # Local test tracks (.mp3) for seamless hot-swapping
 │   ├── src/
-│   │   └── components/
-│   │       └── SpotifyClone.jsx  # 💻 Main UI, Dashboard & Fullscreen Player
-│   ├── package.json
-│   └── vite.config.js            # ⚙️ Configured to ignore backend watcher limits
+│   │   └── App.jsx            # Main React UI and Audio Engine logic
+│   ├── package.json           # Node dependencies
+│   └── vite.config.js         # Vite configuration (configured to ignore backend)
 │
-└── ⚙️ backend/                   # FastAPI + Python ML Pipeline
-    ├── jobs/                     # 📁 Temporary storage for in-progress audio files
-    ├── music/                    # 🧠 The Core AI Pipeline
-    │   ├── s1_seperator.py       # ✂️ Demucs: Splits vocals & instrumentals
-    │   ├── s2_analysis.py        # 🎼 Extracts BPM, Key, and beat grid
-    │   ├── s3_lyrics_tts.py      # 🤖 Mistral DCO + ElevenLabs TTS
-    │   ├── s4_rvc.py             # 🗣️ RVC: Clones artist voice
-    │   ├── s4_5_autotune.py      # 🎛️ Pedalboard: Platinum studio mastering & EQ
-    │   ├── s5_mixall.py          # 🎚️ Mixes AI vocals back into the instrumental
-    │   └── s6_hybridsong.py      # 🪡 Stitches the ad seamlessly into the timeline
-    ├── main.py                   # 🚦 FastAPI Orchestrator (JIT Endpoints)
-    └── pyproject.toml / uv.lock
+├── backend/                   # 🧠 Backend & AI Infrastructure
+│   ├── jobs/                  # Temporary processing folders for JIT audio
+│   ├── music/                 # The Core ML Pipeline Steps
+│   │   ├── s1_seperator.py    # Demucs audio separation
+│   │   ├── s2_analysis.py     # Librosa BPM and pitch analysis
+│   │   ├── s3_lyrics_tts.py   # Mistral DCO and ElevenLabs TTS
+│   │   ├── s4_rvc.py          # RVC voice cloning inference
+│   │   ├── s4_5_autotune.py   # Pedalboard studio mastering
+│   │   ├── s5_mixall.py       # Final audio mixing
+│   │   └── s6_hybridsong.py   # Stitching ad seamlessly into the original song
+│   ├── main.py                # FastAPI Orchestrator & Endpoints
+│   └── requirements.txt       # Python dependencies
+│
+└── README.md                  # Project Documentation
 
 ```
 
----
+## ⚙️ Setup Guidelines
 
-## 🛠️ How to Use & Test It 🧪💻
+To run Chameleon AI locally, follow these environment configurations.
 
-### 1️⃣ Backend Setup (The AI Brain) 🧠🐍
+### 1. Environment Setup (Backend)
 
-1. Navigate to the backend folder: `cd backend` 📂
-2. Install dependencies using `uv`: `uv sync` or `uv pip install -r requirements.txt` 📦
-3. Set up your `.env` file with your API keys 🔑:
-```env
-MISTRAL_API_KEY="your_mistral_key"
-ELEVENLABS_API_KEY="your_elevenlabs_key"
+The backend requires a Python environment capable of handling audio processing and ML tasks.
 
-```
-
-
-4. Start the FastAPI server 🚦:
 ```bash
-uv run uvicorn main:app --reload
+# Navigate to backend
+cd backend
+
+# Create & Activate Virtual Environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+
+# Install Dependencies
+pip install -r requirements.txt
+# (Or use 'uv' if preferred: uv pip install -r requirements.txt)
+
+# Set Environment Variables (Create a .env file)
+echo "MISTRAL_API_KEY=your_key_here" >> .env
+echo "ELEVENLABS_API_KEY=your_key_here" >> .env
+
+# Run the FastAPI Server
+uvicorn main:app --reload
 
 ```
 
+### 2. Environment Setup (Frontend)
 
+The frontend uses a React + Vite setup.
 
-### 2️⃣ Frontend Setup (The Spotify UI) 🎧📱
-
-1. Open a new terminal and navigate to the frontend: `cd frontend` 📂
-2. Install Node packages 📦:
 ```bash
+# Open a new terminal and navigate to frontend
+cd frontend
+
+# Install Dependencies
 npm install
 
-```
-
-
-3. Run the Vite development server ⚡:
-```bash
+# Run the Development Server
 npm run dev
 
 ```
 
-
-
-### 3️⃣ Run the Demo! 🎉🔥
-
-1. Open your browser to `http://localhost:5173` 🌐
-2. You will see the hyper-realistic Spotify clone! 🟢🎵
-3. Click on the **Harry Styles "As It Was"** or **Taylor Swift "Blank Space"** track (marked with the green `AI DEMO` badge). 🖱️✨
-4. **Watch the magic happen:** 🤯
-* The UI will pop open a beautiful Cinematic Full-Screen Player! 🖥️✨
-* The terminal will start printing ML pipeline steps (`[INFO] Fetching weather...`, `[INFO] Generating Mistral Lyrics...`). 💻🤖
-* A glowing green marker 🟩 will appear on the timeline indicating the JIT Ad insertion point.
-* When the playhead crosses the marker, the massive album cover will dynamically swap to an ad visual 🖼️, and the AI-generated ad will play seamlessly over the beat! 🎧🔥
-
-
-
----
-
-### 🏆 Built with ❤️ for the Hackathon by Team Chameleon. 🦎✨
+Open your browser to `http://localhost:5173`. Click on the tracks labeled **AI DEMO** (like Harry Styles or Taylor Swift) to watch the Just-In-Time pipeline trigger in the backend and seamlessly inject the ad into the frontend player!
