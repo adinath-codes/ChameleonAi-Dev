@@ -12,6 +12,7 @@ Chameleon AI is a Just-In-Time (JIT) audio engine that completely reinvents the 
 <img width="1919" height="1064" alt="image" src="https://github.com/user-attachments/assets/3da080ac-7597-44f8-95a2-763f71a5baf5" />
 <img width="1919" height="1069" alt="image" src="https://github.com/user-attachments/assets/53e99dee-5995-4e0e-86bb-7dac57fe6e38" />
 <img width="1919" height="1067" alt="image" src="https://github.com/user-attachments/assets/29dedb24-96c1-44cd-a6dd-81fd5818cac3" />
+<img width="1919" height="1071" alt="image" src="https://github.com/user-attachments/assets/8eb86565-39e4-4f95-8dd0-59ec019c2c7b" />
 
 
 ---
