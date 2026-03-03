@@ -1,12 +1,18 @@
-# 🦎 Chameleon AI (🏆 HACKATHON PROJECT)
+# 🦎 Chameleon AI
 
 **The Future of Native Audio Advertising. Seamless. Hyper-Personalized. Unskippable.**
 
 Chameleon AI is a Just-In-Time (JIT) audio engine that completely reinvents the ad break. It uses RVC voice cloning, LLM contextual scripting, and automated studio mastering to generate native ads in real-time that perfectly match the tempo, musical key, and emotional vibe of whatever the user is currently listening to. Say goodbye to jarring radio commercials and high skip rates.
 
 ## 🌄 Demo
+ 
+[Check out Demo video on youtube](https://www.youtube.com/watch?v=ZYPAXa34CuA)
 
-*(Add your demo images/GIFs below by dragging and dropping them into GitHub)*
+<img width="1918" height="1073" alt="image" src="https://github.com/user-attachments/assets/07a48207-ec66-4452-960d-acd352f41ca7" />
+<img width="1919" height="1064" alt="image" src="https://github.com/user-attachments/assets/3da080ac-7597-44f8-95a2-763f71a5baf5" />
+<img width="1919" height="1069" alt="image" src="https://github.com/user-attachments/assets/53e99dee-5995-4e0e-86bb-7dac57fe6e38" />
+<img width="1919" height="1067" alt="image" src="https://github.com/user-attachments/assets/29dedb24-96c1-44cd-a6dd-81fd5818cac3" />
+
 
 ---
 
